@@ -3,6 +3,8 @@ Terminal commands needed since start of this project:
 pip install django
 python.exe -m pip install --upgrade pip
 django-admin startproject your_project_name_here
+pip install psycopg2-binary
+net start postgresql
 python manage.py runserver
 pip install django-crispy-forms crispy-bootstrap5
 
