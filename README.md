@@ -1,6 +1,6 @@
 # Full Stack Python Django & PostgreSQL CRUD Web App
 
-<img src="imgs/django-crud-gif.gif" alt="CRUD System Demo" width="600">
+<img src="imgs/django-crud-gif.gif" alt="CRUD System Demo" width="800">
 
 ## Employee Management CRUD Operation 
 This project is a CRUD (Create, Read, Update, Delete) web application built using Python and the Django framework. It enables users to manage employee records, including adding, editing, deleting, and viewing employees.
