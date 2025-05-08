@@ -1,0 +1,34 @@
+Terminal commands needed since start of this project:
+
+pip install django
+python.exe -m pip install --upgrade pip
+django-admin startproject your_project_name_here
+python manage.py runserver
+pip install django-crispy-forms crispy-bootstrap5
+
+
+
+(add on settings.py -> bootstrap5, crispy_forms and bootstrap5 on INSTALLED_APPS.
+
+INSTALLED_APPS = [
+    ...
+    'employee_register',
+    'crispy_forms',
+    'crispy_bootstrap5',
+]
+CRISPY_TEMPLATE_PACK = 'bootstrap5'
+)
+
+on settings.py databases set your database data to be able to access and work with the CRUD operation ->
+
+eg.
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'EmployeeDB',
+        'USER': 'postgres',
+        'PASSWORD': 'pass1234!',
+        'HOST': 'localhost',
+        'PORT': '5432',  # Default PostgreSQL port
+    }
+}
